@@ -1,0 +1,67 @@
+th {
+    width: 12.5vw;
+}
+
+input {
+    height: 5vh;
+    width: 10vw;
+}
+
+select {
+    height: 5vh;
+}
+
+button {
+    width: 11.5vw;
+}
+
+#addsection {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    width: 40vw;
+}
+
+#addsection label {
+    text-align: left;
+    float: left;
+}
+
+#addsection input {
+    margin-bottom: 1vh;
+    float: right;
+}
+
+#addsection select {
+    margin-bottom: 1vh;
+    float: right;
+    width: 10vw;
+}
+
+#addsection input[type=checkbox] {
+    width: 3.33vw;
+}
+
+#addsection input[type=radio] {
+    width: 3.33vw;
+}
+
+th input[type=radio] {
+    width: 3.25vw;
+}
+
+th input[type=checkbox] {
+    width: 3.25vw;
+}
+
+* {
+    text-align: center;
+}
+
+.editShowing {
+    display: inline-block;
+}
+
+.editHidden {
+    display: none;
+}
